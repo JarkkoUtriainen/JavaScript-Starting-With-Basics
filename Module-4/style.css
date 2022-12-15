@@ -1,0 +1,168 @@
+html {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(100, 0, 0);
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 7);
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    height: 80px;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+form input {
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+form input[type="submit"] {
+    border-radius: 5px;
+    border: 2px rgb(255, 255, 255) solid;
+    margin-left: 5px;
+}
+
+#query {
+    width: 60vw;
+    border-radius: 5px;
+    border: 3px rgb(255, 255, 255) solid;
+    outline: 0;
+}
+
+#query:focus {
+    outline-style: inset;
+    border: 3px rgb(0, 0, 0) solid;
+}
+
+form input[type="submit"]:active {
+    border: 2px black solid;
+}
+
+
+#results-container {
+    background-color: rgb(187, 187, 187);
+    width: 100%;
+}
+
+#results {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    cursor: pointer;
+    display: block;
+    width: 400px;
+    min-width: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 8px;
+    border-radius: 15px;
+    border: 2px black solid;
+    background-color: white;
+}
+
+article h2 {
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+figure img {
+    border-radius: 5px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+article p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article a {
+    
+    margin: 10%;
+    padding: 2px;
+    color: rgb(0, 0, 218);
+    border-radius: 5px;
+    border: 2px black solid;
+    background-color: rgb(236, 235, 235);
+}
+
+article a:hover { 
+    color: rgb(0, 0, 255);
+}
+
+article a:active {
+    border: 3px black solid;
+}
+
+dialog {
+    padding: 0;
+    height:95%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.418);
+    border: 0;
+    border-radius: 20px;
+}
+
+dialog span {
+    
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+dialog span:hover {
+    color: red;
+}
+
+dialog iframe {
+    display: inline-block;
+    padding: 0;
+    height: 92.5%;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    
+    
+}

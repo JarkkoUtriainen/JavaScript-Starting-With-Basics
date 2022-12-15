@@ -93,7 +93,7 @@ const picArray = [
 ];
 
 // add your code here
-// hope you enjoy Italian food because I'm about serve some spaghetti
+// hope you enjoy Italian food
 
 function createArticle(num) {
   let article = document.createElement('article');
